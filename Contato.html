@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel | contatos</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+
+body {
+  background-image: url(https://64.media.tumblr.com/156e3e9cb3793e25bea067d2709367dc/tumblr_p20ytoE9e01uzwgsuo1_400.gifv);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+ul{
+    display: flex;
+    font-size: 24pt;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.card {
+  background-color: #00000030;
+  padding: 60px;
+  border-radius: 5%;
+  box-shadow: 7px 7px 5px 0px #00000080;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.label-float {
+  position: relative;
+  padding-top: 13px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  transition: all 0.3s ease out;
+}
+
+.label-float input:focus {
+  border-bottom: 2px solid #ff0000;
+}
+
+.label-float label {
+  color: #fff;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 13px;
+  transition: all 0.3s ease out;
+}
+
+.label-float input:focus + label {
+  font-size: 13px;
+  margin-top: 0;
+  color: #fff;
+  transition: all 0.3s ease out;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 40px;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+a {
+  color: #fff;
+  font-size: 12pt;
+  text-decoration: none;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+a:hover {
+  color: #272262;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Sobre mim</a>
+                    </li>
+                    <li>
+                        <a href="https://codepen.io/search/pens?q=danielduarte3105" target="_blank" rel="noopener noreferrer">Projetos</a>
+                    </li>
+                    <li>
+                        <a href="Contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <br>
+
+          <h1>Olá me chamo Daniel Duarte, e este são meus contatos.</h1>
+      
+          <footer>
+            <a href="https://github.com/Danielduarte3105" target="_blank" rel="noopener noreferrer">
+                <img src="./Assets/GitHub.jpg"></img>
+                <p>GitHub</p>
+            </a>
+            <a href="https://www.linkedin.com/in/daniel-duarte-b53806224/" target="_blank" rel="noopener noreferrer">
+                <img src="./Assets/Linkedin.png"></img>
+                <p>Linkedin</p>
+            </a>
+        </footer>
+        </div>
+      </div>
+</body>
+</html>
